@@ -33,9 +33,9 @@ namespace Constructor
     {
         public static void Main() 
         {
-            Console.WriteLine(" Constructor Called ." + StaticConstructor.Id + " " + StaticConstructor.Name);
+            Console.WriteLine( StaticConstructor.Id + " " + StaticConstructor.Name);
             StaticConstructor obj = new StaticConstructor(67,"Jata");
-            Console.WriteLine(" Constructor Called ." + StaticConstructor.Id + " " +StaticConstructor. Name);
+            Console.WriteLine( StaticConstructor.Id + " " +StaticConstructor. Name);
 
         }
     }
